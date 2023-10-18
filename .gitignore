@@ -1,0 +1,27 @@
+# Credentials
+variables.tf
+
+# Terraform .tfstate files (lokale und Backup-Dateien)
+*.tfstate
+*.tfstate.backup
+
+# Terraform .tfvars files, which might contain secret data
+*.tfvars
+
+# Terraform crash log
+crash.log
+
+# Terraform .terraform directory, used for modules and providers
+.terraform/
+
+# Terraform plan files
+*.tfplan
+
+# IDE / Editor spezifisch
+.vscode/
+*.iml
+.idea/
+
+# System spezifisch
+.DS_Store
+Thumbs.db
